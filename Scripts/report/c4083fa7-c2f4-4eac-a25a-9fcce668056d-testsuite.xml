@@ -1,0 +1,84 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1581392719114" stop="1581392719199">
+  <name>Scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1581392719114" status="passed" stop="1581392719160">
+      <description>
+        计算两个数之和等于第三个数   a+b=c
+        :param a:
+        :param b:
+        :param c:
+        :return:
+        </description>
+      <name>test_sum.TestSum.test_s[1-2-3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14096-MainThread"/>
+        <label name="host" value="DESKTOP-J2VM852"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581392719162" status="failed" stop="1581392719193">
+      <description>
+        计算两个数之和等于第三个数   a+b=c
+        :param a:
+        :param b:
+        :param c:
+        :return:
+        </description>
+      <name>test_sum.TestSum.test_s[4-5-6]</name>
+      <failure>
+        <message>AssertionError: assert 9 == 6</message>
+        <stack-trace>self = &lt;Scripts.test_sum.TestSum object at 0x000002541D396390&gt;, a = 4, b = 5
+c = 6
+
+    @pytest.mark.parametrize("a,b,c", get_yaml())
+    def test_s(self, a, b, c):
+        """
+            计算两个数之和等于第三个数   a+b=c
+            :param a:
+            :param b:
+            :param c:
+            :return:
+            """
+        print("\n{}+{}={}".format(a, b, c))
+        # 断言
+&gt;       assert a + b == c
+E       assert 9 == 6
+
+test_sum.py:37: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14096-MainThread"/>
+        <label name="host" value="DESKTOP-J2VM852"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1581392719195" status="passed" stop="1581392719199">
+      <description>
+        计算两个数之和等于第三个数   a+b=c
+        :param a:
+        :param b:
+        :param c:
+        :return:
+        </description>
+      <name>test_sum.TestSum.test_s[2-3-5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14096-MainThread"/>
+        <label name="host" value="DESKTOP-J2VM852"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

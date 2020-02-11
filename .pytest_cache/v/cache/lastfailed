@@ -1,0 +1,10 @@
+{
+  "Scripts/test_sum.py::TestSum::()::test_s[2-3-1]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[3-1-2]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[3-5-2]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[4-5-6]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[5-2-3]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[5-4-6]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[5-6-4]": true,
+  "Scripts/test_sum.py::TestSum::()::test_s[6-4-5]": true
+}

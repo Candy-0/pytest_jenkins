@@ -1,0 +1,5 @@
+[
+  "Scripts/test_sum.py::TestSum::()::test_s[3-2-5]",
+  "Scripts/test_sum.py::TestSum::()::test_s[2-1-3]",
+  "Scripts/test_sum.py::TestSum::()::test_s[5-4-6]"
+]
